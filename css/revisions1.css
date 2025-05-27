@@ -54,3 +54,65 @@ main>section>div:first-child>h2,main>section>div:first-child>p {
     background-color: rgb(224, 222, 66);
     margin: 20px;
 }
+
+/* VRAI CSS */
+
+nav ul {
+    display: flex;
+    flex-direction: row;  /*Disposition en ligne (par défaut quand on met display:flex), si on veut changer on a le mode 'column'*/
+    justify-content: space-evenly; /*Justify-content aligne les élément flex horizontalement SEULEMENT si flex-direction est en row, sinon il agit verticalement en cas de column*/
+    list-style:none; 
+    align-items: center; /*comme justify-content mais verticalement SAUF si flex-direction est column, dans ce cas il agira horizontalement*/
+
+}
+
+/* nav ul li { 
+   list-style-type: lower-greek;
+}
+*/
+
+a {
+    text-decoration: none;
+    color:peru;
+    font-size: 21.5px;
+}
+
+/* hover : pseudo-class qui permet de changer le CSS lors d'un survol à la souris */
+
+li:hover {
+    transform: scale(1.2);
+}
+
+.liens:hover {
+    color:purple;
+}
+
+/* Background image */
+
+#img-dahmer {
+    background-image: url(../img/dahmer.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 30%;
+}
+
+#marge-h2 {
+    width: fit-content;
+    margin: 20px auto;
+}
+
+/* Margin (et padding) : plusieurs façons de faire : 
+pour le 4 mêmes (haut,droite,bas,gauche) -> margin: 10px 20px 
+pour cibler chacun -> margin: 10px 30px 40px 20px
+pour les margin/padding à 0 -> margin: 0
+*/
+
+/* Grid */
+
+main>section>div:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px 0;
+}
