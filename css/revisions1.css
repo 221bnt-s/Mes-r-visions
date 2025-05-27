@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Martian+Mono:wght@100..800&family=Staatliches&display=swap');
+
+/* *=tous les éléments de la page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Martian Mono', sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+/* 2 solutions pour chercher le h2 "Ressemblance parfaite..." */
+
+/* 1ère solution */
+/* main>section>div:last-child>h2 pour la 2e div */
+main > section > div:last-child >h2 {
+    font-family: 'Staatliches';
+}
+
+/* 2ème solution */
+/* #= id, le nom de l'id HTML ensuite */
+#ressemblance {
+    font-family: 'Martian Mono', sans-serif;
+}
+
+/* 2 solutions si on a un CSS identique pour plusieurs éléments */
+main>section>div:first-child>h2,main>section>div:first-child>p {
+    color: orangered;
+}
