@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Martian+Mono:wght@100..800&family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    font-family: 'Staatliches', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(img/accueil.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+nav {
+    h2 {
+        color: white;
+    }
+    margin: 20px;
+    padding: 40PX;
+    text-align: center;
+}
+
+.accueil, h3 {
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.accueil, p {
+    font-size: 15px;
+}
+
+.image-accueil {
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+
+
+
+footer > nav {
+    align-items: last baseline;
+}

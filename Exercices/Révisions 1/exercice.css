@@ -1,0 +1,50 @@
+#intro {
+    color:blue
+}
+
+.note {
+    background-color: yellow;
+}
+
+.note2 {
+    color: blueviolet;
+}
+#important {
+    color: darkcyan;
+}
+
+button {
+      background-color: green;
+        color: white;
+        padding: 30px;
+}
+
+.note3 {
+    background-color: cadetblue;
+}
+
+.info {
+    text-align: center;
+}
+
+#volontaire {
+    color: mediumpurple;
+}
+
+.carte {
+    display:grid;
+    border: 3px solid midnightblue;
+    box-shadow: 10px lightblue;
+    padding: 15px;
+}
+
+#accueil h3 {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+.actif {
+    background-color: firebrick;
+}
+

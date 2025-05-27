@@ -26,7 +26,31 @@ main > section > div:last-child >h2 {
     font-family: 'Martian Mono', sans-serif;
 }
 
+/* Les NTH = nth = N ième */
+main>section> div:nth-child(2) {
+    color: brown;
+}
+
 /* 2 solutions si on a un CSS identique pour plusieurs éléments */
+
+/* 1ère solution : aller chercher chaque élément à la main séparés par '>' (qui veut dire passons au prochain élément) */
 main>section>div:first-child>h2,main>section>div:first-child>p {
     color: orangered;
+}
+
+/* 2ème solution: Les classes*/
+.center {
+    text-align: center;
+}
+
+.rouge {
+    color: chocolate;
+}
+
+/* header>h1,main>section>div:first-child>p,main>section>div:last-child>h2 { */
+
+/* id=marge-h2 */
+#marge-h2 {
+    background-color: rgb(224, 222, 66);
+    margin: 20px;
 }
