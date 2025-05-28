@@ -1,0 +1,58 @@
+/* Exercice 1 */
+#intro {
+    color: blue;
+}
+
+/* Exercice 2 */
+.note {
+    background-color: yellow;
+}
+
+/* Exercice 3 */
+.note {
+    background-color: deeppink;
+}
+
+#important {
+    color: pink;
+}
+
+/* Exercice 4 */
+.cta {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+/* Exercice 5 */
+.note {
+    color:black;
+}
+
+.info {
+    background: pink;
+}
+
+/* Exercice 6 */
+#pasbien {
+    color: darkblue;
+}
+
+/* Exercice 7 */
+.carte {
+    border: 3px solid;
+    box-shadow: 10px 5px 5px gray;
+    padding: 5px;
+}
+
+/* Exercice 8: */
+#accueil h1 {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Exercice 9: */
+ .actif {
+        background-color: mediumorchid;
+    }
